@@ -6,3 +6,20 @@ Lets you input text, and get a yes or no answer.
 2. It sets 8 variables to the possible combos
 3. It sets a possible combo to a variable.
 4. It prints that combo/variable.
+
+
+## You can also use this to choose a answer from variables
+Food Example
+```python
+  import random
+
+  food1 = "pizza"
+  food2 = "salad"
+
+  choice = random.choice([food1, food2])
+  print choice
+```
+OUTPUT
+```
+  pizza
+```
